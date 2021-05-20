@@ -1,5 +1,5 @@
 # Project Requirements
-* [ ] Use React for the front end.
+* [X] Use React for the front end.
 * [ ] Use GraphQL with a Node.js and Express.js server.
 * [ ] Use MongoDB and the Mongoose ODM for the database.
 * [ ] Use queries and mutations for retrieving, adding, updating, and deleting data.
