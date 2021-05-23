@@ -5,6 +5,7 @@ import ApolloClient from 'apollo-boost';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Chat from './components/Chat';
 
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -12,6 +13,7 @@ import NoMatch from './pages/NoMatch';
 import SingleThought from './pages/SingleThought';
 import Profile from './pages/Profile';
 import Signup from './pages/Signup';
+
 
 const client = new ApolloClient({
   request: operation => {
@@ -45,6 +47,7 @@ function App() {
           </div>
           <Footer />
         </div>
+       <Chat></Chat>
       </Router>
     </ApolloProvider>
   );
